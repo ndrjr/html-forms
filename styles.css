@@ -1,0 +1,52 @@
+/* Reset default form styles */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style form container */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style form button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

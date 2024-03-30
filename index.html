@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="https:www.youtube.com" method="post">
+        <fieldset>
+            <legend>Add user</legend>
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name">
+            </div>
+
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+
+            <div>
+                <label for="status">Status</label>
+                <select id="status" name="status">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Choose your favorite programming language:</p>
+                <fieldset>
+                    <div>
+                        <input type="radio" id="html" name="pl" value="html" />
+                        <label for="html">HTML</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="css" name="pl" value="css" />
+                        <label for="css">CSS</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="JavaScript" name="pl" value="JavaScript" />
+                        <label for="JavaScript">JavaScript</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments">Add Comments Here</textarea>
+            </div>
+
+            <div>
+                <label for="date">Current Date</label>
+                <input type="date" id="date" value="date">
+            </div>
+
+            <div>
+                <input type="checkbox" id="nl" name="nl" />
+                <label for="nl">Sign up for newsletter</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="tc" name="tc" />
+                <label for="tc">Agree to terms and conditions</label>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
